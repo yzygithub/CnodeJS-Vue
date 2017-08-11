@@ -45,22 +45,22 @@
         <ol class="friendship-community">
           <li>
             <a href="https://ruby-china.org/" target="_blank">
-              <img src="//o4j806krb.qnssl.com/public/images/ruby-china-20150529.png">
+              <img src="http://o4j806krb.qnssl.com/public/images/ruby-china-20150529.png">
             </a>
           </li>
           <li>
             <a href="http://golangtc.com/" target="_blank">
-              <img src="//o4j806krb.qnssl.com/public/images/golangtc-logo.png">
+              <img src="http://o4j806krb.qnssl.com/public/images/golangtc-logo.png">
             </a>
           </li>
           <li>
             <a href="http://phphub.org/" target="_blank">
-              <img src="//o4j806krb.qnssl.com/public/images/phphub-logo.png">
+              <img src="http://o4j806krb.qnssl.com/public/images/phphub-logo.png">
             </a>
           </li>
           <li>
             <a href="https://testerhome.com/" target="_blank">
-              <img src="//dn-cnode.qbox.me/FjLUc7IJ2--DqS706etPQ1EGajxK">
+              <img src="http://dn-cnode.qbox.me/FjLUc7IJ2--DqS706etPQ1EGajxK">
             </a>
           </li>
         </ol>
@@ -71,7 +71,7 @@
         <span>客户端二维码</span>
       </div>
       <div class="inner cnode-app-download">
-        <img width="200" src="//dn-cnode.qbox.me/FtG0YVgQ6iginiLpf9W4_ShjiLfU">
+        <img width="200" src="http://dn-cnode.qbox.me/FtG0YVgQ6iginiLpf9W4_ShjiLfU">
         <br>
         <a href="https://github.com/soliury/noder-react-native" target="_blank">客户端源码地址</a>
       </div>
@@ -119,6 +119,7 @@
     font-size: 0.875rem;
     float: right;
     margin-bottom: 20px;
+    margin-left: 20px;
   }
   .panel {
     font-size: 0.8125rem;

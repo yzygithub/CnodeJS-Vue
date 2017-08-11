@@ -78,7 +78,7 @@
   /*.secDiv {*/
   /*}*/
   #content-wrap {
-    width:70%;
+    width:80%;
     padding: 0;
  }
   .panel {

@@ -3,6 +3,9 @@
   <el-row :gutter="20" class="wrapper">
     <el-col :span="18">
       <div class="secDiv grid-content" v-loading="loading"  element-loading-text="拼命加载中">
+        <div class="main-header">
+          <p class="header-title">全部</p>
+        </div>
         <div v-for='item of content'>
           <router-link :to='{name: "UserRoute",params:{name: item.author.loginname}}'>
             <img :src='item.author.avatar_url' :title='item.author.loginname'>
@@ -49,25 +52,25 @@
           <ol class="friendship-community">
             <li>
               <a href="https://ruby-china.org/" target="_blank">
-                <img src="//o4j806krb.qnssl.com/public/images/ruby-china-20150529.png">
+                <img src="http://o4j806krb.qnssl.com/public/images/ruby-china-20150529.png">
               </a>
             </li>
             <div class="sep10"></div>
             <li>
               <a href="http://golangtc.com/" target="_blank">
-                <img src="//o4j806krb.qnssl.com/public/images/golangtc-logo.png">
+                <img src="http://o4j806krb.qnssl.com/public/images/golangtc-logo.png">
               </a>
             </li>
             <div class="sep10"></div>
             <li>
               <a href="http://phphub.org/" target="_blank">
-                <img src="//o4j806krb.qnssl.com/public/images/phphub-logo.png">
+                <img src="http://o4j806krb.qnssl.com/public/images/phphub-logo.png">
               </a>
             </li>
             <div class="sep10"></div>
             <li>
               <a href="https://testerhome.com/" target="_blank">
-                <img src="//dn-cnode.qbox.me/FjLUc7IJ2--DqS706etPQ1EGajxK">
+                <img src="http://dn-cnode.qbox.me/FjLUc7IJ2--DqS706etPQ1EGajxK">
               </a>
             </li>
           </ol>
@@ -78,7 +81,7 @@
           <span>客户端二维码</span>
         </div>
         <div class="inner cnode-app-download">
-          <img width="200" src="//dn-cnode.qbox.me/FtG0YVgQ6iginiLpf9W4_ShjiLfU">
+          <img width="200" src="http://dn-cnode.qbox.me/FtG0YVgQ6iginiLpf9W4_ShjiLfU">
           <br>
           <a href="https://github.com/soliury/noder-react-native" target="_blank">客户端源码地址</a>
         </div>
@@ -182,6 +185,16 @@
     margin: 0 0.5rem;
   }
 
+  .main-header {
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0;
+    background-color: #f6f6f6;
+  }
+  .header-title {
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: #80bd01;
+  }
   .textDiv {
     display: flex;
     flex-direction: column;
@@ -189,17 +202,13 @@
     justify-content: flex-start;
     width: 100%;
     padding-left: 1rem;
+    overflow: hidden;
   }
 
-  /*title超过长度显示'...'*/
   .title {
     color: black;
     font-size: 20px;
-    text-overflow: ellipsis;
-    display:block;
     white-space:nowrap;
-    width:37em;
-    overflow:hidden;
   }
 
   .title:visited {

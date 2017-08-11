@@ -2,7 +2,7 @@
   <div id="content-wrap" v-loading.lock="loading" element-loading-text="拼命加载中">
     <div class="panel">
       <div class="header">
-        <router-link to='/'><span>主页\/</span></router-link>
+        <router-link to='/'><span>主页/</span></router-link>
       </div>
       <div class="user-info">
         <div class="user-card">
@@ -97,8 +97,7 @@ export default {
 
 <style scoped>
   #content-wrap {
-    width:70%;
-    height: 500px;//
+    width:80%;
     padding: 0;
   }
   /*user card*/

@@ -46,12 +46,16 @@ body,
 div,
 span,
 a,
-p,
-ul,
-li {
+p{
     margin: 0;
     padding: 0;
 }
+
+ol,ul {
+  padding: 0;
+  margin: 0 0 10px 25px
+}
+
 body {
   background-color: #e1e1e1;
 }
@@ -67,4 +71,10 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+
+  @media screen and (max-width: 480px) {
+    #sideBar {
+      display: none;
+    }
+  }
 </style>

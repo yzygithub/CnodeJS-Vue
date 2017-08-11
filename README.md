@@ -1,11 +1,8 @@
 # cnodejs-vue
 
 > 基于Vue重构CnodeJS社区
-
-> rebuild CnodeJS by Vue 
-
-> 本项目基于[林水溶的项目](https://github.com/shuiRong/VueCnodeJS) License MIT
-
+> rebuild CnodeJS by Vue
+> 本项目基于[林水溶的VueCnodeJS](https://github.com/shuiRong/VueCnodeJS) License MIT
 > 还有一些待改进的地方，暂时先这样吧。
 ## Build Setup
 
